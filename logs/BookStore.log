@@ -1,0 +1,23 @@
+2025-03-21T21:55:10.180+05:30 ERROR 4668 --- [BookStore] [http-nio-8080-exec-5] o.anshu.bookstore.services.BookService   : Book with ID 1 not found for update
+2025-03-21T21:55:28.427+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-6] o.a.b.controllers.BookController         : Deleting book with ID: 4
+2025-03-21T21:55:28.428+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-6] o.anshu.bookstore.services.BookService   : Deleting book with ID: 4
+2025-03-21T21:57:25.264+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-10] o.a.b.controllers.BookController         : Adding a new book: The Zombie Room
+2025-03-21T21:57:25.267+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-10] o.anshu.bookstore.services.BookService   : Adding book: The Zombie Room
+2025-03-21T21:57:57.599+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-7] o.a.b.controllers.BookController         : Updating book with ID: 1
+2025-03-21T21:57:57.600+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-7] o.anshu.bookstore.services.BookService   : Updating book with ID: 1
+2025-03-21T21:57:57.607+05:30 ERROR 4668 --- [BookStore] [http-nio-8080-exec-7] o.anshu.bookstore.services.BookService   : Book with ID 1 not found for update
+2025-03-21T21:58:22.500+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-9] o.a.b.controllers.BookController         : Updating book with ID: 5
+2025-03-21T21:58:22.500+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-9] o.anshu.bookstore.services.BookService   : Updating book with ID: 5
+2025-03-21T21:59:00.078+05:30 ERROR 4668 --- [BookStore] [http-nio-8080-exec-1] o.anshu.bookstore.services.BookService   : Book with ID 4 not found
+2025-03-21T21:59:30.395+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-2] o.a.b.controllers.BookController         : Fetching All Books
+2025-03-21T21:59:30.395+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-2] o.anshu.bookstore.services.BookService   : Fetching all books
+2025-03-21T22:00:14.341+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-5] o.a.b.controllers.BookController         : Adding a new book: The Zombie Room
+2025-03-21T22:00:14.342+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-5] o.anshu.bookstore.services.BookService   : Adding book: The Zombie Room
+2025-03-21T22:00:33.460+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-6] o.a.b.controllers.BookController         : Deleting book with ID: 5
+2025-03-21T22:00:33.461+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-6] o.anshu.bookstore.services.BookService   : Deleting book with ID: 5
+2025-03-21T22:18:15.869+05:30  INFO 4668 --- [BookStore] [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T22:18:15.875+05:30  INFO 4668 --- [BookStore] [RMI TCP Connection(27)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T22:18:15.895+05:30  INFO 4668 --- [BookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T22:18:15.903+05:30  INFO 4668 --- [BookStore] [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T22:18:15.918+05:30  INFO 4668 --- [BookStore] [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T22:18:15.941+05:30  INFO 4668 --- [BookStore] [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

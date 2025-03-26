@@ -1,0 +1,36 @@
+2025-03-21T21:53:01.437+05:30  INFO 4668 --- [BookStore] [main] o.anshu.bookstore.BookStoreApplication   : Starting BookStoreApplication using Java 21.0.6 with PID 4668 (C:\Users\LENOVO\eclipse-workspace\BookStore\target\classes started by LENOVO in C:\Users\LENOVO\eclipse-workspace\BookStore)
+2025-03-21T21:53:01.439+05:30  INFO 4668 --- [BookStore] [main] o.anshu.bookstore.BookStoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:53:02.113+05:30  INFO 4668 --- [BookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T21:53:02.187+05:30  INFO 4668 --- [BookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2025-03-21T21:53:02.808+05:30  INFO 4668 --- [BookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-21T21:53:02.826+05:30  INFO 4668 --- [BookStore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T21:53:02.826+05:30  INFO 4668 --- [BookStore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T21:53:02.884+05:30  INFO 4668 --- [BookStore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T21:53:02.884+05:30  INFO 4668 --- [BookStore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1400 ms
+2025-03-21T21:53:03.051+05:30  INFO 4668 --- [BookStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T21:53:03.131+05:30  INFO 4668 --- [BookStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T21:53:03.175+05:30  INFO 4668 --- [BookStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T21:53:03.568+05:30  INFO 4668 --- [BookStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T21:53:03.607+05:30  INFO 4668 --- [BookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T21:53:03.949+05:30  INFO 4668 --- [BookStore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67dc6b48
+2025-03-21T21:53:03.951+05:30  INFO 4668 --- [BookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T21:53:04.094+05:30  INFO 4668 --- [BookStore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T21:53:05.095+05:30  INFO 4668 --- [BookStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T21:53:05.147+05:30  INFO 4668 --- [BookStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T21:53:05.394+05:30  WARN 4668 --- [BookStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T21:53:05.925+05:30  INFO 4668 --- [BookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-21T21:53:05.937+05:30  INFO 4668 --- [BookStore] [main] o.anshu.bookstore.BookStoreApplication   : Started BookStoreApplication in 4.937 seconds (process running for 5.535)
+2025-03-21T21:54:07.747+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T21:54:07.748+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T21:54:07.752+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-03-21T21:54:07.859+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-3] o.a.b.controllers.BookController         : Fetching All Books
+2025-03-21T21:54:07.860+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-3] o.anshu.bookstore.services.BookService   : Fetching all books
+2025-03-21T21:55:10.174+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-5] o.a.b.controllers.BookController         : Updating book with ID: 1
+2025-03-21T21:55:10.174+05:30  INFO 4668 --- [BookStore] [http-nio-8080-exec-5] o.anshu.bookstore.services.BookService   : Updating book with ID: 1
