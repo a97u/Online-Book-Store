@@ -68,7 +68,7 @@ class BookControllerTest {
 	@Test
 	void testGetBook_Found() {
 		when(bookService.getBookById(7L)).thenReturn(Optional.of(book));
-		ResponseEntity<Book> response = bookController.getBook(7L);
+		ResponseEntity<Book> response = bookController.getBookById(7L);
 
 		// Assert that the response status is 200 and the body matches the expected title
 		assertEquals(200, response.getStatusCode().value());
@@ -81,7 +81,7 @@ class BookControllerTest {
 	@Test
 	void testGetBook_NotFound() {
 		when(bookService.getBookById(9L)).thenReturn(Optional.empty());
-		ResponseEntity<Book> response = bookController.getBook(9L);
+		ResponseEntity<Book> response = bookController.getBookById(9L);
 
 		// Assert that the response status is 404 and the body is null
 		assertEquals(404, response.getStatusCode().value());
